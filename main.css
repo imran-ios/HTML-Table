@@ -1,0 +1,28 @@
+body{
+   margin: 50px;
+
+}
+
+table,th,td {
+    border: 1px solid #3b6978;
+    border-collapse: collapse;
+
+}
+
+
+
+th{
+    text-align: left;
+    padding: 10px;
+    background-color: #3b6978;
+    color: white;
+}
+
+td{
+    text-align: left;
+    padding: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #aacfcf;
+}
